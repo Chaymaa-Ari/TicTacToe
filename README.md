@@ -14,7 +14,7 @@ Minimax Algorithm with Alpha-Beta Pruning:
         The AI player uses the Minimax algorithm to determine its optimal move. This algorithm evaluates all possible moves and their outcomes to maximize its own chances of winning while minimizing the player's chances.
         Alpha-Beta Pruning is employed to optimize the performance of the Minimax algorithm by cutting off branches in the game tree that cannot result in a better outcome. This helps reduce the number of nodes evaluated, making the AI faster and more efficient.
 
-# Code Explication :
+# Explanation of the code :
 The provided code implements a Tic-Tac-Toe game where the user plays against an AI. The game uses the Tkinter library to create a graphical interface, allowing players to interact with a 3x3 grid of buttons representing the game board. The game alternates between the player (who plays as 'X') and the AI (who plays as 'O').
 
 The **AI's logic** is based on the **Minimax algorithm with Alpha-Beta pruning**. The AI evaluates all possible moves and selects the best one by simulating future game states, ensuring it maximizes its chances of winning while minimizing the player's chances.
