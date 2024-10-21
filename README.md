@@ -4,12 +4,12 @@ The game of Tic-Tac-Toe is a simple, two-player strategy game where players take
 
 In this implementation, the player competes against an AI, where the player takes the first move with 'X' and the AI plays with 'O'. The game continues until a player wins or the game ends in a draw. The graphical interface for the game is created using the Tkinter library in Python.
 Technologies and Algorithms Used
-1. Technologies:
+
+# Technologies:
 
     Python: The core programming language used for game logic and AI implementation.
     Tkinter: A Python library used to create the graphical user interface (GUI) of the game. It allows users to interact with buttons representing the Tic-Tac-Toe board.
-
-2. Algorithms:
+# Algorithms:
 
     Minimax Algorithm with Alpha-Beta Pruning:
         The AI player uses the Minimax algorithm to determine its optimal move. This algorithm evaluates all possible moves and their outcomes to maximize its own chances of winning while minimizing the player's chances.
